@@ -38,6 +38,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 
 #####  REFERÊNCIAS
 
+  - [Template Formulário em w3schools](https://www.w3schools.com/howto/howto_css_login_form.asp)
   - [Formulários em web.dev/learn/forms](https://web.dev/learn/forms/)
   
 
