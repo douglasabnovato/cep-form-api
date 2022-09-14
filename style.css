@@ -15,12 +15,9 @@ input[type="text"] {
     display: flex;
     gap: 2%;
 }
-.unumber {
-    width: 30%;
-}
 
 .ustreet {
-    width: 68%;
+    width: 100%;
 }
 
 .ucity-ustate {

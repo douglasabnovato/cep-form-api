@@ -37,62 +37,68 @@
         <div class="container-form">
           <div class="uname-upostalcode">
             <div class="uname">
-                <label for="uname"><b>Nome Completo do Cliente</b></label>
+                <label for="name"><b>Nome Completo do Cliente</b></label>
                 <input
                 type="text"
                 placeholder="Inserir o Nome Completo do Cliente"
-                name="uname"
+                id="name"
+                name="name"
                 required
+                autocomplete="name"
+                enterkeyhint="next"
                 />
             </div>
             <div class="upostalcode">
-                <label for="upostalcode"><b>CEP</b></label>
+                <label for="postal-code"><b>CEP</b></label>
                 <input
                 type="text"
                 placeholder="Inserir o CEP"
-                name="upostalcode"
+                id="postal-code"
+                name="postal-code"
                 required
+                autocomplete="postal-code"
+                enterkeyhint="next"
                 />
             </div>
         </div>
         <div>
-          <div class="unumber-ustreet">
-            <div class="unumber">
-              <label for="unumber"><b>Número</b></label>
-              <input
-                type="text"
-                placeholder="Inserir o Número"
-                name="unumber"
-                required
-              />
-            </div>
+          <div class="unumber-ustreet">            
             <div class="ustreet">
-              <label for="ustreet"><b>Rua</b></label>
+              <label for="street-address"><b>Número e Rua</b></label>
               <input
                 type="text"
-                placeholder="Inserir a Rua"
-                name="ustreet"
+                placeholder="Inserir Número e Rua"
+                id="street-address"
+                name="street-address"
                 required
+                autocomplete="street-address"
+                enterkeyhint="next"
               />
             </div>
           </div>
           <div class="ucity-ustate">
             <div class="ucity">
-              <label for="ucity"><b>Cidade</b></label>
+              <label for="city"><b>Cidade</b></label>
               <input
                 type="text"
                 placeholder="Inserir a Cidade"
-                name="ucity"
+                id="city"
+                name="city"
                 required
+                autocomplete="city"
+                enterkeyhint="next"
               />
             </div>
             <div class="ustate">
-              <label for="ustate"><b>Estado</b></label>
+              <label for="state"><b>Estado</b></label>
               <input
                 type="text"
                 placeholder="Inserir o Estado"
-                name="ustate"
+                id="state"
+                name="state"
                 required
+                autocomplete="state"
+                enterkeyhint="next"
               />
             </div>
           </div>
