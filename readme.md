@@ -1,4 +1,4 @@
-## CEP FORM API 
+## Cadastrar CEP 
  
 Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa de cadastro de endereço e escolha do mesmo para entregar de um produto.
  
@@ -11,6 +11,10 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados o endereço para entrega, preenchendo assim os campos necessários
 - [ ] a página deve permitir a exclusão de um endereço já cadastrados
 - [ ] após o término, enviar o projeto para o repositório remoto com uma branch específica
+
+#### EXTRAS
+
+- [x] favicon
 
 #####  PONTOS DE DESTAQUE
 	 
