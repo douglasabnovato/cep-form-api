@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CEP Form API</title>
-</head>
-<body>
-    <h1>CEP Form API</h1>
-</body>
+  <head>    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created" />
+    <link rel="shortcut icon" href="./public/favicon.ico">
+    <link rel="manifest" href="./public/manifest.json" />
+    <title>Cadastrar CEP</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="id01" class="modal">
+      <form
+        class="modal-content animate"
+        action="/action_page.php"
+        method="post"
+      >
+        <div class="container-google">
+          <div class="container-cart">
+            <div class="imgcontainer">
+              <img src="./assets/Google.png" alt="Avatar" class="avatar" />
+            </div>
+            <div class="infocontainer">
+              <h4><a href="mailto:google@google.com">Google LLC</a></h4>
+              <hr />
+              <address>
+                1600, Amphitheatre Parkway<br />
+                Mountain View<br />
+                Califórnia<br />
+                USA, Postal Code 94043
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="container-form">
+          <div class="uname-upostalcode">
+            <div class="uname">
+                <label for="uname"><b>Nome Completo do Cliente</b></label>
+                <input
+                type="text"
+                placeholder="Inserir o Nome Completo do Cliente"
+                name="uname"
+                required
+                />
+            </div>
+            <div class="upostalcode">
+                <label for="upostalcode"><b>CEP</b></label>
+                <input
+                type="text"
+                placeholder="Inserir o CEP"
+                name="upostalcode"
+                required
+                />
+            </div>
+        </div>
+        <div>
+          <div class="unumber-ustreet">
+            <div class="unumber">
+              <label for="unumber"><b>Número</b></label>
+              <input
+                type="text"
+                placeholder="Inserir o Número"
+                name="unumber"
+                required
+              />
+            </div>
+            <div class="ustreet">
+              <label for="ustreet"><b>Rua</b></label>
+              <input
+                type="text"
+                placeholder="Inserir a Rua"
+                name="ustreet"
+                required
+              />
+            </div>
+          </div>
+          <div class="ucity-ustate">
+            <div class="ucity">
+              <label for="ucity"><b>Cidade</b></label>
+              <input
+                type="text"
+                placeholder="Inserir a Cidade"
+                name="ucity"
+                required
+              />
+            </div>
+            <div class="ustate">
+              <label for="ustate"><b>Estado</b></label>
+              <input
+                type="text"
+                placeholder="Inserir o Estado"
+                name="ustate"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit">Cadastrar</button>
+        </div>
+        <div class="container-form" style="background-color: #f1f1f1">
+          <button
+            type="button"
+            onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn"
+          >
+            Cancel
+          </button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
