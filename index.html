@@ -1,71 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CEP Form API</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div id="id01" class="modal">
-            
-            <form
-                class="modal-content animate"
-                action="/action_page.php"
-                method="post"
-            >
-                <div class="col-25">
-                    <div class="container-cart">
-                        <div class="imgcontainer">
-                            <img src="./assets/Google.png" alt="Avatar" class="avatar" />
-                        </div>
-                        <div class="infocontainer">
-                            <h4>Google LLC</h4>
-                            <hr>
-                            <p>1600 Amphitheatre Parkway</p>
-                            <p>Mountain View</p>
-                            <p>Califórnia</p>
-                            <p>Postal Code 94043</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container-form">
-                    <label for="uname"><b>Username</b></label>
-                    <input
-                        type="text"
-                        placeholder="Enter Username"
-                        name="uname"
-                        required
-                    />
-
-                    <label for="psw"><b>Password</b></label>
-                    <input
-                        type="password"
-                        placeholder="Enter Password"
-                        name="psw"
-                        required
-                    />
-
-                    <button type="submit">Login</button>
-                    <label>
-                        <input type="checkbox" checked="checked" name="remember" /> Remember
-                        me
-                    </label>
-                    </div>
-
-                    <div class="container-form" style="background-color: #f1f1f1">
-                    <button
-                        type="button"
-                        onclick="document.getElementById('id01').style.display='none'"
-                        class="cancelbtn"
-                    >
-                        Cancel
-                    </button>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-            </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEP Form API</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="id01" class="modal">
+      <form
+        class="modal-content animate"
+        action="/action_page.php"
+        method="post"
+      >
+        <div class="container-google">
+          <div class="container-cart">
+            <div class="imgcontainer">
+              <img src="./assets/Google.png" alt="Avatar" class="avatar" />
+            </div>
+            <div class="infocontainer">
+              <h4>Google LLC</h4>
+              <hr />
+              <p>1600 Amphitheatre Parkway</p>
+              <p>Mountain View</p>
+              <p>Califórnia</p>
+              <p>Postal Code 94043</p>
+            </div>
+          </div>
         </div>
-    </body>
+        <div class="container-form">
+          <label for="uname"><b>Nome</b></label>
+          <input
+            type="text"
+            placeholder="Inserir seu nome"
+            name="uname"
+            required
+          />
+          <label for="usobrenome"><b>Sobrenome</b></label>
+          <input
+            type="text"
+            placeholder="Inserir seu sobrenome"
+            name="usobrenome"
+            required
+          />
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </div>
+        <div class="container-form" style="background-color: #f1f1f1">
+          <button
+            type="button"
+            onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn"
+          >
+            Cancel
+          </button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

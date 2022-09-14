@@ -4,7 +4,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
  
 #### REQUISITOS
 
-- [ ] a página deve possuir um logo com endereço da empresa
+- [x] a página deve possuir um logo com endereço da empresa
 - [ ] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [ ] após informar o cep os campos devem ser preenchidos automaticamente 
 - [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados o endereço para entrega, preenchendo assim os campos necessários
@@ -25,4 +25,3 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - VSCODE
   - SUBLIME TEXT 3
   - GIT BASH
-  
