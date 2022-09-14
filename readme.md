@@ -30,6 +30,11 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - SUBLIME TEXT 3
   - GIT BASH
 
+#####  REFERÊNCIAS
+
+  - [Formulários](https://web.dev/learn/forms/)
+  
+
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
  
 Fonte do projeto é um desafio para vaga de dev.
