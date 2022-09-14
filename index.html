@@ -20,37 +20,83 @@
               <img src="./assets/Google.png" alt="Avatar" class="avatar" />
             </div>
             <div class="infocontainer">
-              <h4>Google LLC</h4>
+              <h4><a href="mailto:webmaster@example.com">Google LLC</a></h4>
               <hr />
-              <p>1600 Amphitheatre Parkway</p>
-              <p>Mountain View</p>
-              <p>Califórnia</p>
-              <p>Postal Code 94043</p>
+              <address>
+                1600, Amphitheatre Parkway<br />
+                Mountain View<br />
+                Califórnia<br />
+                USA, Postal Code 94043
+              </address>
             </div>
           </div>
         </div>
         <div class="container-form">
-          <label for="uname"><b>Nome</b></label>
-          <input
-            type="text"
-            placeholder="Inserir seu nome"
-            name="uname"
-            required
-          />
-          <label for="usobrenome"><b>Sobrenome</b></label>
-          <input
-            type="text"
-            placeholder="Inserir seu sobrenome"
-            name="usobrenome"
-            required
-          />
-          <label for="psw"><b>Password</b></label>
-          <input
-            type="password"
-            placeholder="Enter Password"
-            name="psw"
-            required
-          />
+          <div class="uname-upostalcode">
+            <div class="uname">
+                <label for="uname"><b>Nome Completo do Cliente</b></label>
+                <input
+                type="text"
+                placeholder="Inserir o Nome Completo do Cliente"
+                name="uname"
+                required
+                />
+            </div>
+            <div class="upostalcode">
+                <label for="upostalcode"><b>CEP</b></label>
+                <input
+                type="text"
+                placeholder="Inserir o CEP"
+                name="upostalcode"
+                required
+                />
+            </div>
+        </div>
+        <div>
+          <div class="unumber-ustreet">
+            <div class="unumber">
+              <label for="unumber"><b>Número</b></label>
+              <input
+                type="text"
+                placeholder="Inserir o Número"
+                name="unumber"
+                required
+              />
+            </div>
+
+            <div class="ustreet">
+              <label for="ustreet"><b>Rua</b></label>
+              <input
+                type="text"
+                placeholder="Inserir a Rua"
+                name="ustreet"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="ucity-ustate">
+            <div class="ucity">
+              <label for="ucity"><b>Cidade</b></label>
+              <input
+                type="text"
+                placeholder="Inserir a Cidade"
+                name="ucity"
+                required
+              />
+            </div>
+
+            <div class="ustate">
+              <label for="ustate"><b>Estado</b></label>
+              <input
+                type="text"
+                placeholder="Inserir o Estado"
+                name="ustate"
+                required
+              />
+            </div>
+          </div>
+
           <button type="submit">Enviar</button>
         </div>
         <div class="container-form" style="background-color: #f1f1f1">
