@@ -38,7 +38,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 
 #####  REFERÊNCIAS
 
-  - [Formulários](https://web.dev/learn/forms/)
+  - [Formulários em web.dev/learn/forms](https://web.dev/learn/forms/)
   
 
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
