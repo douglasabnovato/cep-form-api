@@ -1,4 +1,10 @@
-## CEP FORM API 
+<h4 align="center"> 
+	🚧 Cadastrar CEP 🚀
+</h4>
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-1.jpg">
+</p> 
  
 Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa de cadastro de endereço e escolha do mesmo para entregar de um produto.
  
@@ -7,10 +13,17 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] a página deve possuir um logo com endereço da empresa
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [ ] o formulário deve conter as validações necessárias
-- [ ] após informar o cep os campos devem ser preenchidos automaticamente 
-- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados o endereço para entrega, preenchendo assim os campos necessários
-- [ ] a página deve permitir a exclusão de um endereço já cadastrados
-- [ ] após o término, enviar o projeto para o repositório remoto com uma branch específica
+- [ ] após informar o cep, os campos devem ser preenchidos automaticamente 
+- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
+- [ ] a página deve permitir a exclusão de um endereço já cadastrado
+
+#### EXTRAS
+
+- [x] favicon
+- [x] botão Enter vai para o próximo input com `enterkeyhint="next"`
+- [x] usar também um único <input> para o endereço da rua e o número de rua
+- [x] atributo autocomplete
+
 
 #####  PONTOS DE DESTAQUE
 	 
@@ -25,3 +38,13 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - VSCODE
   - SUBLIME TEXT 3
   - GIT BASH
+
+#####  REFERÊNCIAS
+
+  - [Template Formulário em w3schools](https://www.w3schools.com/howto/howto_css_login_form.asp)
+  - [Formulários em web.dev/learn/forms](https://web.dev/learn/forms/)
+  
+
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
+ 
+Fonte do projeto é um desafio para vaga de dev.
