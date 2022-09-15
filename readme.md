@@ -13,14 +13,17 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] a página deve possuir um logo com endereço da empresa
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [ ] o formulário deve conter as validações necessárias
-- [ ] após informar o cep os campos devem ser preenchidos automaticamente 
-- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados o endereço para entrega, preenchendo assim os campos necessários
-- [ ] a página deve permitir a exclusão de um endereço já cadastrados
-- [ ] após o término, enviar o projeto para o repositório remoto com uma branch específica
+- [ ] após informar o cep, os campos devem ser preenchidos automaticamente 
+- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
+- [ ] a página deve permitir a exclusão de um endereço já cadastrado
 
 #### EXTRAS
 
 - [x] favicon
+- [x] botão Enter vai para o próximo input com `enterkeyhint="next"`
+- [x] usar também um único <input> para o endereço da rua e o número de rua
+- [x] atributo autocomplete
+
 
 #####  PONTOS DE DESTAQUE
 	 

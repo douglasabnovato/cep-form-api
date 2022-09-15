@@ -24,6 +24,7 @@ input[type="text"] {
     display: flex;
     gap: 2%;
 }
+
 .ucity {
     width: 48%;
 }
@@ -36,6 +37,7 @@ input[type="text"] {
     display: flex;
     gap: 2%;
 }
+
 .uname {
     width: 70%;
 }
@@ -138,7 +140,7 @@ span.psw {
     border: 1 solid red;
 }
 
-.infocontainer a{
+.infocontainer a {
     text-decoration: none;
     color: black;
 }

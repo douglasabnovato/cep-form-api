@@ -49,12 +49,13 @@
                 />
             </div>
             <div class="upostalcode">
-                <label for="postal-code"><b>CEP</b></label>
+                <label for="zip"><b>CEP</b></label>
                 <input
                 type="text"
+                inputmode="numeric"
                 placeholder="Inserir o CEP"
-                id="postal-code"
-                name="postal-code"
+                id="zip"
+                name="zip"
                 required
                 autocomplete="postal-code"
                 enterkeyhint="next"
@@ -64,14 +65,14 @@
         <div>
           <div class="unumber-ustreet">            
             <div class="ustreet">
-              <label for="street-address"><b>Número e Rua</b></label>
+              <label for="streetaddress"><b>Número e Rua</b></label>
               <input
                 type="text"
                 placeholder="Inserir Número e Rua"
-                id="street-address"
-                name="street-address"
+                id="streetaddress"
+                name="streetaddress"
                 required
-                autocomplete="street-address"
+                autocomplete="streetaddress"
                 enterkeyhint="next"
               />
             </div>
@@ -102,7 +103,7 @@
               />
             </div>
           </div>
-          <button type="submit">Cadastrar</button>
+          <button type="submit" onclick="cadastrar()">Cadastrar</button>
         </div>
         <div class="container-form" style="background-color: #f1f1f1">
           <button
@@ -116,5 +117,6 @@
         </div>
       </form>
     </div>
+    <script src="./main.js"></script>
   </body>
 </html>
