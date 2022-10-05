@@ -11,13 +11,43 @@ input[type="text"] {
     border: 1px solid #ccc;
 }
 
-.unumber-ustreet {
+.uname-upostalcode {
+    display: flex;
+    gap: 2%;
+}
+
+.uname {
+    width: 70%;
+}
+
+.upostalcode {
+    width: 28%;
+}
+
+.ustreet-unumber {
     display: flex;
     gap: 2%;
 }
 
 .ustreet {
-    width: 100%;
+    width: 65%;
+}
+
+.unumber {
+    width: 35%;
+}
+
+.ucomplement-uneighborhood {
+    display: flex;
+    gap: 2%;
+}
+
+.ucomplement {
+    width: 50%;
+}
+
+.uneighborhood {
+    width: 55%;
 }
 
 .ucity-ustate {
@@ -31,19 +61,6 @@ input[type="text"] {
 
 .ustate {
     width: 50%;
-}
-
-.uname-upostalcode {
-    display: flex;
-    gap: 2%;
-}
-
-.uname {
-    width: 70%;
-}
-
-.upostalcode {
-    width: 28%;
 }
 
 button {
@@ -130,8 +147,6 @@ span.psw {
         width: 100%;
     }
 }
-
-/* Cart com logo e endereço da empresa */
 
 .container-google {
     -ms-flex: 25%;

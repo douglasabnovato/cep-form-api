@@ -14,7 +14,6 @@
     <div id="id01" class="modal">
       <form
         class="modal-content animate"
-        action="/action_page.php"
         method="post"
       >
         <div class="container-google">
@@ -37,68 +36,106 @@
         <div class="container-form">
           <div class="uname-upostalcode">
             <div class="uname">
-                <label for="name"><b>Nome Completo do Cliente</b></label>
+                <label for="txtName"><b>Nome Completo do Cliente</b></label>
                 <input
                 type="text"
                 placeholder="Inserir o Nome Completo do Cliente"
-                id="name"
-                name="name"
+                id="txtName"
+                name="txtName"
                 required
-                autocomplete="name"
+                autocomplete="txtName"
                 enterkeyhint="next"
                 />
             </div>
             <div class="upostalcode">
-                <label for="zip"><b>CEP</b></label>
+                <label for="txtCep"><b>CEP</b></label>
                 <input
                 type="text"
                 inputmode="numeric"
                 placeholder="Inserir o CEP"
-                id="zip"
-                name="zip"
+                id="txtCep"
+                name="txtCep"
                 required
-                autocomplete="postal-code"
+                autocomplete="txtCep"
                 enterkeyhint="next"
                 />
             </div>
         </div>
         <div>
-          <div class="unumber-ustreet">            
+          <div class="ustreet-unumber">            
             <div class="ustreet">
-              <label for="streetaddress"><b>Número e Rua</b></label>
+              <label for="txtStreet"><b>Rua</b></label>
               <input
                 type="text"
-                placeholder="Inserir Número e Rua"
-                id="streetaddress"
-                name="streetaddress"
+                placeholder="Inserir Rua"
+                id="txtStreet"
+                name="txtStreet"
                 required
-                autocomplete="streetaddress"
+                autocomplete="txtStreet"
+                enterkeyhint="next"
+              />
+            </div>
+            <div class="unumber">
+              <label for="txtNumber"><b>Número</b></label>
+              <input
+                type="text"
+                placeholder="Inserir Número"
+                id="txtNumber"
+                name="txtNumber"
+                required
+                autocomplete="txtNumber"
+                enterkeyhint="next"
+              />
+            </div>
+          </div>
+          <div class="ucomplement-uneighborhood">
+            <div class="ucomplement">
+              <label for="txtComplement"><b>Complemento</b></label>
+              <input
+                type="text"
+                placeholder="Inserir Complemento"
+                id="txtComplement"
+                name="txtComplement"
+                required
+                autocomplete="txtComplement"
+                enterkeyhint="next"
+              />
+            </div>
+            <div class="uneighborhood">
+              <label for="txtNeighborhood"><b>Bairro</b></label>
+              <input
+                type="text"
+                placeholder="Inserir o Bairro"
+                id="txtNeighborhood"
+                name="txtNeighborhood"
+                required
+                autocomplete="txtNeighborhood"
                 enterkeyhint="next"
               />
             </div>
           </div>
           <div class="ucity-ustate">
             <div class="ucity">
-              <label for="city"><b>Cidade</b></label>
+              <label for="txtCity"><b>Cidade</b></label>
               <input
                 type="text"
                 placeholder="Inserir a Cidade"
-                id="city"
-                name="city"
+                id="txtCity"
+                name="txtCity"
                 required
-                autocomplete="city"
+                autocomplete="txtCity"
                 enterkeyhint="next"
               />
             </div>
             <div class="ustate">
-              <label for="state"><b>Estado</b></label>
+              <label for="txtState"><b>Estado</b></label>
               <input
                 type="text"
                 placeholder="Inserir o Estado"
-                id="state"
-                name="state"
+                id="txtState"
+                name="txtState"
                 required
-                autocomplete="state"
+                autocomplete="txtState"
                 enterkeyhint="next"
               />
             </div>
@@ -108,15 +145,16 @@
         <div class="container-form" style="background-color: #f1f1f1">
           <button
             type="button"
-            onclick="document.getElementById('id01').style.display='none'"
+            onclick="cancelar()"
             class="cancelbtn"
           >
             Cancelar
           </button>
-          <span class="psw">Esqueci a <a href="#">senha?</a></span>
+          <span class="psw">Esqueci a <a href="#" onclick="esqueci()">senha?</a></span>
         </div>
       </form>
     </div>
     <script src="./main.js"></script>
+    <script src="./cep.js"></script>
   </body>
 </html>

@@ -12,9 +12,10 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 
 - [x] a página deve possuir um logo com endereço da empresa
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
+- [x] os campos devem ser preenchidos automaticamente após informar o cep
 - [ ] o formulário deve conter as validações necessárias
-- [ ] após informar o cep, os campos devem ser preenchidos automaticamente 
 - [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
+- [ ] salvar os endereços em localstorage
 - [ ] a página deve permitir a exclusão de um endereço já cadastrado
 
 #### EXTRAS
@@ -22,7 +23,8 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] favicon
 - [x] botão Enter vai para o próximo input com `enterkeyhint="next"`
 - [x] usar também um único <input> para o endereço da rua e o número de rua
-- [x] atributo autocomplete
+- [ ] validar as informações vindas da api cep
+- [ ] atributo autocomplete
 - [ ] responsividade
 - [ ] acessibilidade
 
@@ -44,7 +46,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 
   - [Template Formulário em w3schools](https://www.w3schools.com/howto/howto_css_login_form.asp)
   - [Formulários em web.dev/learn/forms](https://web.dev/learn/forms/)
-  
+  - [Brasil API para cep](https://brasilapi.com.br/docs#tag/CEP)
 
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
  
