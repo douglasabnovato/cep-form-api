@@ -47,6 +47,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - [Template Formulário em w3schools](https://www.w3schools.com/howto/howto_css_login_form.asp)
   - [Formulários em web.dev/learn/forms](https://web.dev/learn/forms/)
   - [Brasil API para cep](https://brasilapi.com.br/docs#tag/CEP)
+  - [Consultar CEPs](https://cep.guiamais.com.br/)
 
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
  
