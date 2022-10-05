@@ -23,7 +23,8 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] botão Enter vai para o próximo input com `enterkeyhint="next"`
 - [x] usar também um único <input> para o endereço da rua e o número de rua
 - [x] atributo autocomplete
-
+- [ ] responsividade
+- [ ] acessibilidade
 
 #####  PONTOS DE DESTAQUE
 	 
