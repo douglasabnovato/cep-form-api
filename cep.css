@@ -15,6 +15,15 @@ input[type="text"] {
     border: 1px solid #ccc;
 }
 
+input[type="number"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
 .uname-upostalcode {
     display: flex;
     gap: 2%;
@@ -92,29 +101,22 @@ input[type="text"] {
     }
 }
 
-@media screen and (max-width: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-    }
-}
-
 div.container-google {
     -ms-flex: 25%;
     flex: 2%;
     padding: 16px;
-    border: 2 solid red;
-}
-
-div.infocontainer a {
-    text-decoration: none;
-    color: black;
+    border: 1 solid red;
 }
 
 @media (max-width: 800px) {
     .container-google {
         margin-bottom: 20px;
     }
+}
+
+div.infocontainer a {
+    text-decoration: none;
+    color: black;
 }
 
 .container-cart {
