@@ -1,0 +1,61 @@
+.form {
+    padding: 0 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small {
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.form button {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
+}

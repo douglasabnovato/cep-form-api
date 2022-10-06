@@ -1,122 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>    
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created" />
-    <link rel="shortcut icon" href="./public/favicon.ico">
+    <link rel="shortcut icon" href="./public/favicon.ico" />
     <link rel="manifest" href="./public/manifest.json" />
     <title>Cadastrar CEP</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./validation.css" />
+    <link rel="stylesheet" href="./cep.css" />
   </head>
   <body>
-    <div id="id01" class="modal">
-      <form
-        class="modal-content animate"
-        action="/action_page.php"
-        method="post"
-      >
-        <div class="container-google">
-          <div class="container-cart">
-            <div class="imgcontainer">
-              <img src="./assets/Google.png" alt="Avatar" class="avatar" />
-            </div>
-            <div class="infocontainer">
-              <h4><a href="mailto:google@google.com">Google LLC</a></h4>
-              <hr />
-              <address>
-                1600, Amphitheatre Parkway<br />
-                Mountain View<br />
-                Califórnia<br />
-                USA, Postal Code 94043
-              </address>
-            </div>
+    <div>
+      <div class="container-google">
+        <div class="container-cart">
+          <div class="imgcontainer">
+            <img src="./assets/Google.png" alt="Avatar" class="avatar" />
+          </div>
+          <div class="infocontainer">
+            <h4><a href="mailto:google@google.com">Google LLC</a></h4>
+            <hr />
+            <address>
+              1600, Amphitheatre Parkway<br />
+              Mountain View<br />
+              Califórnia<br />
+              USA, Postal Code 94043
+            </address>
           </div>
         </div>
+      </div>
+      <form
+        id="form"
+        class="form animate"
+        method="post"
+      >        
         <div class="container-form">
-          <div class="uname-upostalcode">
-            <div class="uname">
-                <label for="name"><b>Nome Completo do Cliente</b></label>
-                <input
-                type="text"
+          <div class="uname-upostalcode">            
+            <div class="uname form-control">                
+              <label for="txtName"><b>Nome Completo do Cliente</b></label>
+              <input
                 placeholder="Inserir o Nome Completo do Cliente"
-                id="name"
-                name="name"
-                required
-                autocomplete="name"
-                enterkeyhint="next"
-                />
+                type="text"
+                id="txtName"
+                name="txtName"
+              />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt=""/>
+                </i>
+                <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+                <small>Error Message</small>
             </div>
-            <div class="upostalcode">
-                <label for="zip"><b>CEP</b></label>
+            <div class="upostalcode form-control">
+                <label for="txtCep"><b>CEP</b></label>
                 <input
                 type="text"
                 inputmode="numeric"
                 placeholder="Inserir o CEP"
-                id="zip"
-                name="zip"
-                required
-                autocomplete="postal-code"
-                enterkeyhint="next"
+                id="txtCep"
+                name="txtCep"
                 />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt=""/>
+                </i>
+                <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+                <small>Error Message</small>
             </div>
-        </div>
-        <div>
-          <div class="unumber-ustreet">            
-            <div class="ustreet">
-              <label for="streetaddress"><b>Número e Rua</b></label>
+          </div>
+          <div class="ustreet-unumber"> 
+            <div class="ustreet form-control">
+              <label for="txtStreet"><b>Rua</b></label>
               <input
                 type="text"
-                placeholder="Inserir Número e Rua"
-                id="streetaddress"
-                name="streetaddress"
-                required
-                autocomplete="streetaddress"
-                enterkeyhint="next"
+                placeholder="Inserir Rua"
+                id="txtStreet"
+                name="txtStreet"
               />
+              <i class="img-success">
+                <img src="./assets/success-icon.svg" alt=""/>
+              </i>
+              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+              <small>Error Message</small>
+            </div>
+            <div class="unumber form-control">
+              <label for="txtNumber"><b>Número</b></label>
+              <input
+                type="number"
+                placeholder="Inserir Número"
+                id="txtNumber"
+                name="txtNumber"
+              />
+              <i class="img-success">
+                <img src="./assets/success-icon.svg" alt=""/>
+              </i>
+              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+              <small>Error Message</small>
+            </div>
+          </div>
+          <div class="ucomplement-uneighborhood">
+            <div class="ucomplement form-control">
+              <label for="txtComplement"><b>Complemento</b></label>
+              <input
+                type="text"
+                placeholder="Inserir Complemento"
+                id="txtComplement"
+                name="txtComplement"
+              />
+              <i class="img-success">
+                <img src="./assets/success-icon.svg" alt=""/>
+              </i>
+              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+              <small>Error Message</small>
+            </div>
+            <div class="uneighborhood form-control">
+              <label for="txtNeighborhood"><b>Bairro</b></label>
+              <input
+                type="text"
+                placeholder="Inserir o Bairro"
+                id="txtNeighborhood"
+                name="txtNeighborhood"
+              />
+              <i class="img-success">
+                <img src="./assets/success-icon.svg" alt=""/>
+              </i>
+              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+              <small>Error Message</small>
             </div>
           </div>
           <div class="ucity-ustate">
-            <div class="ucity">
-              <label for="city"><b>Cidade</b></label>
+            <div class="ucity form-control">
+              <label for="txtCity"><b>Cidade</b></label>
               <input
                 type="text"
                 placeholder="Inserir a Cidade"
-                id="city"
-                name="city"
-                required
-                autocomplete="city"
-                enterkeyhint="next"
+                id="txtCity"
+                name="txtCity"
               />
+              <i class="img-success">
+                <img src="./assets/success-icon.svg" alt=""/>
+              </i>
+              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+              <small>Error Message</small>
             </div>
-            <div class="ustate">
-              <label for="state"><b>Estado</b></label>
+            <div class="ustate form-control">
+              <label for="txtState"><b>Estado</b></label>
               <input
                 type="text"
                 placeholder="Inserir o Estado"
-                id="state"
-                name="state"
-                required
-                autocomplete="state"
-                enterkeyhint="next"
+                id="txtState"
+                name="txtState"
               />
+              <i class="img-success">
+                <img src="./assets/success-icon.svg" alt=""/>
+              </i>
+              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+              <small>Error Message</small>
             </div>
           </div>
-          <button type="submit" onclick="cadastrar()">Cadastrar</button>
-        </div>
-        <div class="container-form" style="background-color: #f1f1f1">
+          <button type="submit">Cadastrar</button>
           <button
             type="button"
-            onclick="document.getElementById('id01').style.display='none'"
-            class="cancelbtn"
+            onclick="limparFormulario()"
           >
-            Cancelar
+            Limpar Formulário
           </button>
-          <span class="psw">Esqueci a <a href="#">senha?</a></span>
         </div>
       </form>
     </div>
-    <script src="./main.js"></script>
+    <script src="./validation.js"></script>
+    <script src="./cep.js"></script>
   </body>
 </html>
