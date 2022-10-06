@@ -1,4 +1,21 @@
+const limparFormulario = () => {
+    document.getElementById("txtCep").value = '';
+    document.getElementById("txtStreet").value = '';
+    document.getElementById("txtNeighborhood").value = '';
+    document.getElementById("txtCity").value = '';
+    document.getElementById("txtState").value = '';
+}
+
+const prepararFormulario = () => {
+    document.getElementById("txtStreet").value = '';
+    document.getElementById("txtNeighborhood").value = '';
+    document.getElementById("txtCity").value = '';
+    document.getElementById("txtState").value = '';
+}
+
 function buscaCep(){
+    prepararFormulario();
+
     let cep = document.getElementById("txtCep").value;
 
     if(cep !== ""){
@@ -22,8 +39,7 @@ function buscaCep(){
             else {
                 alert("Erro de requisição")
             }
-        }
-        
+        }        
     }
 }
 
