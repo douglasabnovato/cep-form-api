@@ -52,6 +52,8 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - [Viacep API para cep](https://viacep.com.br/)
   - [Consultar CEPs](https://cep.guiamais.com.br/)
   - [consumir uma API](https://www.youtube.com/watch?v=imk6Y0viabg)  
+  - [Validar formulário](https://www.youtube.com/watch?v=SazrvkE7t-g)  
+
 
 Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
  
