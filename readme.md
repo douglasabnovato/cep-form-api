@@ -51,8 +51,9 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - [Brasil API para cep](https://brasilapi.com.br/docs#tag/CEP)
   - [Viacep API para cep](https://viacep.com.br/)
   - [Consultar CEPs](https://cep.guiamais.com.br/)
-  - [consumir uma API](https://www.youtube.com/watch?v=imk6Y0viabg)  
-  - [Validar formulário](https://www.youtube.com/watch?v=SazrvkE7t-g)  
+  - [Autopreencher com API de CEP - 1](https://www.youtube.com/watch?v=nJtwKUQkAGo&t=1033s)    
+  - [Autopreencher com API de CEP - 2](https://www.youtube.com/watch?v=imk6Y0viabg)
+  - [Validar formulário - 2](https://www.youtube.com/watch?v=SazrvkE7t-g)  
 
 ###  Evolução das soluções
 
