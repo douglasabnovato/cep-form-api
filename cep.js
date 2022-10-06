@@ -23,6 +23,7 @@ function buscaCep(){
                 alert("Erro de requisição")
             }
         }
+        
     }
 }
 
