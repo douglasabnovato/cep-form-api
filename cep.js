@@ -1,6 +1,9 @@
 const limparFormulario = () => {
+    document.getElementById("txtName").value = '';
     document.getElementById("txtCep").value = '';
     document.getElementById("txtStreet").value = '';
+    document.getElementById("txtNumber").value = '';
+    document.getElementById("txtComplement").value = '';
     document.getElementById("txtNeighborhood").value = '';
     document.getElementById("txtCity").value = '';
     document.getElementById("txtState").value = '';
