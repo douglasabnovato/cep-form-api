@@ -1,5 +1,7 @@
 const form = document.getElementById("form");
 const username = document.getElementById("txtName");
+console.log("form",form)
+console.log("username",username)
 
 const email = document.getElementById("email");
 const password = document.getElementById("password");
@@ -7,6 +9,7 @@ const passwordtwo = document.getElementById("password-two");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  console.log("username addEventListener",username)
   checkInputs();
 });
 

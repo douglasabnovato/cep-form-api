@@ -12,57 +12,6 @@
     <link rel="stylesheet" href="./cep.css" />
   </head>
   <body>
-    <!--
-    <div class="container">
-      <form class="form" id="form">
-
-        <div class="form-control">
-          <label for="username">Nome</label>
-          <input type="text" id="username" />
-          <i class="img-success"
-            ><img src="./assets/success-icon.svg" alt=""
-          /></i>
-          <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-          <small>Error Message</small>
-        </div>
-
-        <div class="form-control">
-          <label>Email</label>
-          <input type="email" id="email" />
-          <i class="img-success"
-            ><img src="./assets/success-icon.svg" alt=""
-          /></i>
-          <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-
-          <small>Error Message</small>
-        </div>
-
-        <div class="form-control">
-          <label>Senha</label>
-          <input type="password" id="password" />
-          <i class="img-success"
-            ><img src="./assets/success-icon.svg" alt=""
-          /></i>
-          <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-
-          <small>Error Message</small>
-        </div>
-
-        <div class="form-control">
-          <label>Confirme sua senha</label>
-          <input type="password" id="password-two" />
-          <i class="img-success"
-            ><img src="./assets/success-icon.svg" alt=""
-          /></i>
-          <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-
-          <small>Error Message</small>
-        </div>
-
-        <button type="submit">ENVIAR</button>
-      </form>
-    </div>
-     -->
     <div>
       <div class="container-google">
         <div class="container-cart">
@@ -87,17 +36,15 @@
         method="post"
       >        
         <div class="container-form">
-          <div class="uname-upostalcode">
-            
-            <div class="uname form-control">
-                
+          <div class="uname-upostalcode">            
+            <div class="uname form-control">                
               <label for="txtName"><b>Nome Completo do Cliente</b></label>
-
               <input
                 placeholder="Inserir o Nome Completo do Cliente"
                 type="text"
                 id="txtName"
                 name="txtName"
+                required
                 autocomplete="txtName"
                 enterkeyhint="next"
               />
@@ -107,7 +54,6 @@
                 <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
                 <small>Error Message</small>
             </div>
-
             <div class="upostalcode form-control">
                 <label for="txtCep"><b>CEP</b></label>
                 <input
@@ -121,10 +67,8 @@
                 enterkeyhint="next"
                 />
             </div>
-        </div>
-        <div>
+          </div>
           <div class="ustreet-unumber"> 
-
             <div class="ustreet form-control">
               <label for="txtStreet"><b>Rua</b></label>
               <input
@@ -137,7 +81,6 @@
                 enterkeyhint="next"
               />
             </div>
-
             <div class="unumber form-control">
               <label for="txtNumber"><b>Número</b></label>
               <input
@@ -152,7 +95,6 @@
             </div>
           </div>
           <div class="ucomplement-uneighborhood">
-
             <div class="ucomplement form-control">
               <label for="txtComplement"><b>Complemento</b></label>
               <input
@@ -165,7 +107,6 @@
                 enterkeyhint="next"
               />
             </div>
-
             <div class="uneighborhood form-control">
               <label for="txtNeighborhood"><b>Bairro</b></label>
               <input
@@ -180,7 +121,6 @@
             </div>
           </div>
           <div class="ucity-ustate">
-
             <div class="ucity form-control">
               <label for="txtCity"><b>Cidade</b></label>
               <input
