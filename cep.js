@@ -23,7 +23,6 @@ function buscaCep() {
 
   if (cep !== "") {
     let url = "https://brasilapi.com.br/api/cep/v1/" + cep;
-    console.log("url", url);
     let req = new XMLHttpRequest();
     req.open("GET", url);
     req.send();
