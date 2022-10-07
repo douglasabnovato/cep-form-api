@@ -26,7 +26,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] limpar o formulário para nova busca de cep
 - [x] botão para limpar o formulário
 - [x] validar as informações vindas da api cep
-- [ ] responsividade
+- [x] responsividade
 - [ ] acessibilidade
 
 #####  PONTOS DE DESTAQUE
