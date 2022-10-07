@@ -25,7 +25,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] atributo autocomplete
 - [x] limpar o formulário para nova busca de cep
 - [x] botão para limpar o formulário
-- [ ] validar as informações vindas da api cep
+- [x] validar as informações vindas da api cep
 - [ ] responsividade
 - [ ] acessibilidade
 
@@ -50,9 +50,12 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - [Brasil API para cep](https://brasilapi.com.br/docs#tag/CEP)
   - [Viacep API para cep](https://viacep.com.br/)
   - [Consultar CEPs](https://cep.guiamais.com.br/)
+  - [Consultar CEPs](https://buscacepinter.correios.com.br/app/endereco/index.php)  
   - [Autopreencher com API de CEP - 1](https://www.youtube.com/watch?v=nJtwKUQkAGo&t=1033s)    
   - [Autopreencher com API de CEP - 2](https://www.youtube.com/watch?v=imk6Y0viabg)
-  - [Validar formulário - 2](https://www.youtube.com/watch?v=SazrvkE7t-g)  
+  - [Validar formulário - 2](https://www.youtube.com/watch?v=SazrvkE7t-g)
+  - Cep com undefined: 68160-000 
+  - Cep com completo: 02227-001
 
 ###  Evolução das soluções
 

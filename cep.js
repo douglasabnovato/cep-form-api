@@ -30,11 +30,21 @@ function buscaCep() {
     req.onload = function () {
       if (req.status === 200) {
         let endereco = JSON.parse(req.response);
-        document.getElementById("txtStreet").value = endereco.street;
-        document.getElementById("txtNeighborhood").value =
-          endereco.neighborhood;
-        document.getElementById("txtCity").value = endereco.city;
-        document.getElementById("txtState").value = endereco.state;
+        let isUndefined = "validarApi"
+
+        isUndefined = endereco.street;
+        (isUndefined) ? document.getElementById("txtStreet").value = endereco.street : document.getElementById("txtStreet").value = "Inserir rua...";
+
+        isUndefined = endereco.neighborhood;
+        (isUndefined) ? document.getElementById("txtNeighborhood").value = endereco.neighborhood : document.getElementById("txtNeighborhood").value = "Inserir bairro...";
+
+        isUndefined = endereco.city;
+        (isUndefined) ? document.getElementById("txtCity").value = endereco.neighborhood : document.getElementById("txtCity").value = "Inserir cidade...";
+
+ 
+        isUndefined = endereco.state;
+        (isUndefined) ? document.getElementById("txtState").value = endereco.neighborhood : document.getElementById("txtState").value = "Inserir estado...";
+        
       } else if (req.status === 404) {
         alert("CEP inválido");
       } else {
