@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./cep.css" />
   </head>
   <body>
-    <div>
+    <div class="screen">
       <div class="container-google">
         <div class="container-cart">
           <div class="imgcontainer">
@@ -30,138 +30,179 @@
           </div>
         </div>
       </div>
-      <form
-        id="form"
-        class="form animate"
-        method="post"
-      >        
+      <form id="form" class="form animate" method="post">
         <div class="container-form">
-          <div class="uname-upostalcode">            
-            <div class="uname form-control">                
-              <label for="txtName"><b>Nome Completo do Cliente</b></label>
-              <input
-                placeholder="Inserir o Nome Completo do Cliente"
-                type="text"
-                id="txtName"
-                name="txtName"
-              />
-                <i class="img-success">
-                  <img src="./assets/success-icon.svg" alt=""/>
-                </i>
-                <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-                <small>Error Message</small>
-            </div>
-            <div class="upostalcode form-control">
-                <label for="txtCep"><b>CEP</b></label>
+          <div class="uname-upostalcode">
+            <div class="uname">
+              <div class="form-control" id="validation-txtName">
+                <label for="txtName"><b>Nome Completo do Cliente</b></label>
                 <input
-                type="text"
-                inputmode="numeric"
-                placeholder="Inserir o CEP"
-                id="txtCep"
-                name="txtCep"
+                  placeholder="Inserir o Nome Completo do Cliente"
+                  type="text"
+                  id="txtName"
+                  name="txtName"
+                  enterkeyhint="next"
+                  autocomplete="txtName"
                 />
                 <i class="img-success">
-                  <img src="./assets/success-icon.svg" alt=""/>
+                  <img src="./assets/success-icon.svg" alt="" />
                 </i>
-                <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
                 <small>Error Message</small>
+              </div>
+            </div>
+            <div class="upostalcode">
+              <div class="form-control" id="validation-txtCep">
+                <label for="txtCep"><b>CEP</b></label>
+                <input
+                  type="text"
+                  inputmode="numeric"
+                  placeholder="Inserir o CEP"
+                  id="txtCep"
+                  name="txtCep"
+                  enterkeyhint="next"
+                  autocomplete="txtCep"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
           </div>
-          <div class="ustreet-unumber"> 
-            <div class="ustreet form-control">
-              <label for="txtStreet"><b>Rua</b></label>
-              <input
-                type="text"
-                placeholder="Inserir Rua"
-                id="txtStreet"
-                name="txtStreet"
-              />
-              <i class="img-success">
-                <img src="./assets/success-icon.svg" alt=""/>
-              </i>
-              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-              <small>Error Message</small>
+          <div class="ustreet-unumber">
+            <div class="ustreet">
+              <div class="form-control" id="validation-txtStreet">
+                <label for="txtStreet"><b>Rua</b></label>
+                <input
+                  type="text"
+                  placeholder="Inserir Rua"
+                  id="txtStreet"
+                  name="txtStreet"
+                  enterkeyhint="next"
+                  autocomplete="txtStreet"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
-            <div class="unumber form-control">
-              <label for="txtNumber"><b>Número</b></label>
-              <input
-                type="number"
-                placeholder="Inserir Número"
-                id="txtNumber"
-                name="txtNumber"
-              />
-              <i class="img-success">
-                <img src="./assets/success-icon.svg" alt=""/>
-              </i>
-              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-              <small>Error Message</small>
+            <div class="unumber">
+              <div class="form-control" id="validation-txtNumber">
+                <label for="txtNumber"><b>Número</b></label>
+                <input
+                  type="number"
+                  placeholder="Inserir Número"
+                  id="txtNumber"
+                  name="txtNumber"
+                  enterkeyhint="next"
+                  autocomplete="txtNumber"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
           </div>
           <div class="ucomplement-uneighborhood">
-            <div class="ucomplement form-control">
-              <label for="txtComplement"><b>Complemento</b></label>
-              <input
-                type="text"
-                placeholder="Inserir Complemento"
-                id="txtComplement"
-                name="txtComplement"
-              />
-              <i class="img-success">
-                <img src="./assets/success-icon.svg" alt=""/>
-              </i>
-              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-              <small>Error Message</small>
+            <div class="ucomplement">
+              <div class="form-control" id="validation-txtComplement">
+                <label for="txtComplement"><b>Complemento</b></label>
+                <input
+                  type="text"
+                  placeholder="Inserir Complemento"
+                  id="txtComplement"
+                  name="txtComplement"
+                  enterkeyhint="next"
+                  autocomplete="txtComplement"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
-            <div class="uneighborhood form-control">
-              <label for="txtNeighborhood"><b>Bairro</b></label>
-              <input
-                type="text"
-                placeholder="Inserir o Bairro"
-                id="txtNeighborhood"
-                name="txtNeighborhood"
-              />
-              <i class="img-success">
-                <img src="./assets/success-icon.svg" alt=""/>
-              </i>
-              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-              <small>Error Message</small>
+            <div class="uneighborhood">
+              <div class="form-control" id="validation-txtNeighborhood">
+                <label for="txtNeighborhood"><b>Bairro</b></label>
+                <input
+                  type="text"
+                  placeholder="Inserir o Bairro"
+                  id="txtNeighborhood"
+                  name="txtNeighborhood"
+                  enterkeyhint="next"
+                  autocomplete="txtNeighborhood"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
           </div>
           <div class="ucity-ustate">
-            <div class="ucity form-control">
-              <label for="txtCity"><b>Cidade</b></label>
-              <input
-                type="text"
-                placeholder="Inserir a Cidade"
-                id="txtCity"
-                name="txtCity"
-              />
-              <i class="img-success">
-                <img src="./assets/success-icon.svg" alt=""/>
-              </i>
-              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-              <small>Error Message</small>
+            <div class="ucity">
+              <div class="form-control" id="validation-txtCity">
+                <label for="txtCity"><b>Cidade</b></label>
+                <input
+                  type="text"
+                  placeholder="Inserir a Cidade"
+                  id="txtCity"
+                  name="txtCity"
+                  enterkeyhint="next"
+                  autocomplete="txtCity"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
-            <div class="ustate form-control">
-              <label for="txtState"><b>Estado</b></label>
-              <input
-                type="text"
-                placeholder="Inserir o Estado"
-                id="txtState"
-                name="txtState"
-              />
-              <i class="img-success">
-                <img src="./assets/success-icon.svg" alt=""/>
-              </i>
-              <i class="img-error"><img src="./assets/error-icon.svg" alt="" /></i>
-              <small>Error Message</small>
+            <div class="ustate">
+              <div class="form-control" id="validation-txtState">
+                <label for="txtState"><b>Estado</b></label>
+                <input
+                  type="text"
+                  placeholder="Inserir o Estado"
+                  id="txtState"
+                  name="txtState"
+                  enterkeyhint="next"
+                  autocomplete="txtState"
+                />
+                <i class="img-success">
+                  <img src="./assets/success-icon.svg" alt="" />
+                </i>
+                <i class="img-error"
+                  ><img src="./assets/error-icon.svg" alt=""
+                /></i>
+                <small>Error Message</small>
+              </div>
             </div>
           </div>
           <button type="submit">Cadastrar</button>
-          <button
-            type="button"
-            onclick="limparFormulario()"
-          >
+          <button type="button" onclick="limparFormulario()">
             Limpar Formulário
           </button>
         </div>

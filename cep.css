@@ -6,6 +6,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.screen {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
 input[type="text"] {
     box-sizing: border-box;
     width: 100%;
@@ -105,11 +112,10 @@ div.container-google {
     -ms-flex: 25%;
     flex: 2%;
     padding: 16px;
-    border: 1 solid red;
 }
 
 @media (max-width: 800px) {
-    .container-google {
+    div.container-google {
         margin-bottom: 20px;
     }
 }
@@ -121,6 +127,7 @@ div.infocontainer a {
 
 .container-cart {
     display: flex;
+    margin: 0 auto;
     background-color: #f2f2f2;
     padding: 5px 20px 0 20px;
     border-radius: 3px;

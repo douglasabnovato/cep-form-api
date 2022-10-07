@@ -3,32 +3,37 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-2.jpg">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.1.jpg">
 </p> 
  
 Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa de cadastro de endereço e escolha do mesmo para entregar de um produto.
  
+#### PRÓXIMO PASSO
+
+- [ ] salvar os endereços em localstorage
+- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
+- [ ] a página deve permitir a exclusão de um endereço já cadastrado
+
+#### APERFEIÇOAMENTO
+
+- [ ] acessibilidade
+
 #### REQUISITOS
 
 - [x] a página deve possuir um logo com endereço da empresa
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [x] os campos devem ser preenchidos automaticamente após informar o cep
-- [ ] o formulário deve conter as validações necessárias
-- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
-- [ ] salvar os endereços em localstorage
-- [ ] a página deve permitir a exclusão de um endereço já cadastrado
+- [x] o formulário deve conter as validações necessárias
 
 #### EXTRAS
 
 - [x] favicon
 - [x] botão Enter vai para o próximo input com `enterkeyhint="next"`
-- [x] usar também um único <input> para o endereço da rua e o número de rua
+- [x] atributo autocomplete
 - [x] limpar o formulário para nova busca de cep
 - [x] botão para limpar o formulário
-- [ ] validar as informações vindas da api cep
-- [ ] atributo autocomplete
-- [ ] responsividade
-- [ ] acessibilidade
+- [x] validar as informações vindas da api cep
+- [x] responsividade
 
 #####  PONTOS DE DESTAQUE
 	 
@@ -51,18 +56,29 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - [Brasil API para cep](https://brasilapi.com.br/docs#tag/CEP)
   - [Viacep API para cep](https://viacep.com.br/)
   - [Consultar CEPs](https://cep.guiamais.com.br/)
+  - [Consultar CEPs](https://buscacepinter.correios.com.br/app/endereco/index.php)  
   - [Autopreencher com API de CEP - 1](https://www.youtube.com/watch?v=nJtwKUQkAGo&t=1033s)    
   - [Autopreencher com API de CEP - 2](https://www.youtube.com/watch?v=imk6Y0viabg)
-  - [Validar formulário - 2](https://www.youtube.com/watch?v=SazrvkE7t-g)  
+  - [Validar formulário - 2](https://www.youtube.com/watch?v=SazrvkE7t-g)
+  - Cep com undefined: 68160-000 
+  - Cep com completo: 02227-001
+  - [função ternária](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-###  Evolução das soluções
+###  Evolução das soluções para versão 1 - v1.0-layout
 
-- versão 2
+- etapa 3
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-5.jpg" height="450px">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.1.jpg">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-3.jpg">
+</p> 
+
+- etapa 2
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-2.jpg">
 </p> 
 
-- versão 1
+- etapa 1
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-1.jpg">
 </p> 
