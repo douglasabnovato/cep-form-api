@@ -10,6 +10,7 @@ body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 input[type="text"] {
@@ -126,6 +127,7 @@ div.infocontainer a {
 
 .container-cart {
     display: flex;
+    margin: 0 auto;
     background-color: #f2f2f2;
     padding: 5px 20px 0 20px;
     border-radius: 3px;
