@@ -14,8 +14,8 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [x] os campos devem ser preenchidos automaticamente após informar o cep
 - [x] o formulário deve conter as validações necessárias
-- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
 - [ ] salvar os endereços em localstorage
+- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
 - [ ] a página deve permitir a exclusão de um endereço já cadastrado
 
 #### EXTRAS
