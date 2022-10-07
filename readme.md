@@ -56,6 +56,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - [Validar formulário - 2](https://www.youtube.com/watch?v=SazrvkE7t-g)
   - Cep com undefined: 68160-000 
   - Cep com completo: 02227-001
+  - [função ternária](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 ###  Evolução das soluções
 

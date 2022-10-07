@@ -7,6 +7,32 @@ const limparFormulario = () => {
   document.getElementById("txtNeighborhood").value = "";
   document.getElementById("txtCity").value = "";
   document.getElementById("txtState").value = "";
+
+  var element = document.getElementById("validation-txtName");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtCep");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtStreet");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtNumber");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtComplement");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtNeighborhood");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtCity");
+  element.classList.remove("error");
+  element.classList.remove("success");
+  element = document.getElementById("validation-txtState");
+  element.classList.remove("error");
+  element.classList.remove("success");
+
 };
 
 const prepararFormulario = () => {
