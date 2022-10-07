@@ -8,15 +8,22 @@
  
 Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa de cadastro de endereço e escolha do mesmo para entregar de um produto.
  
+#### PRÓXIMO PASSO
+
+- [ ] salvar os endereços em localstorage
+- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
+- [ ] a página deve permitir a exclusão de um endereço já cadastrado
+
+#### APERFEIÇOAMENTO
+
+- [ ] acessibilidade
+
 #### REQUISITOS
 
 - [x] a página deve possuir um logo com endereço da empresa
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [x] os campos devem ser preenchidos automaticamente após informar o cep
 - [x] o formulário deve conter as validações necessárias
-- [ ] salvar os endereços em localstorage
-- [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
-- [ ] a página deve permitir a exclusão de um endereço já cadastrado
 
 #### EXTRAS
 
@@ -27,7 +34,6 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] botão para limpar o formulário
 - [x] validar as informações vindas da api cep
 - [x] responsividade
-- [ ] acessibilidade
 
 #####  PONTOS DE DESTAQUE
 	 
