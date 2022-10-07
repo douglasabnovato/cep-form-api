@@ -62,6 +62,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 
 - etapa 3
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-5.jpg" height="450px">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.1.jpg">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-3.jpg">
 </p> 
