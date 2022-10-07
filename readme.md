@@ -58,20 +58,20 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
   - Cep com completo: 02227-001
   - [função ternária](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
-###  Evolução das soluções
+###  Evolução das soluções para versão 1 - v1.0-layout
 
-- versão 3
+- etapa 3
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.jpg">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-3.jpg">
 </p> 
 
-- versão 2
+- etapa 2
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-2.jpg">
 </p> 
 
-- versão 1
+- etapa 1
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-1.jpg">
 </p> 
