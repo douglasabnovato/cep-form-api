@@ -13,7 +13,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 - [x] a página deve possuir um logo com endereço da empresa
 - [x] a página deve possuir um formulário com os campos nome do cliente e endereço
 - [x] os campos devem ser preenchidos automaticamente após informar o cep
-- [ ] o formulário deve conter as validações necessárias: estilzando a mensagem de erro e a posição do ícone
+- [x] o formulário deve conter as validações necessárias
 - [ ] uma segunda página ou aba dentro do mesmo formulário deve permitir ao usuário escolher entre os endereços previamente cadastrados como endereço para entrega, preenchendo assim os campos necessários
 - [ ] salvar os endereços em localstorage
 - [ ] a página deve permitir a exclusão de um endereço já cadastrado
