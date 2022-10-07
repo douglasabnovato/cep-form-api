@@ -36,8 +36,7 @@
 
 .form-control small {
     visibility: hidden;
-    position: absolute;
-    margin-top: 5px;
+    margin-top: 3px;
     font-size: 14px;
 }
 

@@ -105,11 +105,10 @@ div.container-google {
     -ms-flex: 25%;
     flex: 2%;
     padding: 16px;
-    border: 1 solid red;
 }
 
 @media (max-width: 800px) {
-    .container-google {
+    div.container-google {
         margin-bottom: 20px;
     }
 }
