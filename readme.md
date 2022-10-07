@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.jpg">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.1.jpg">
 </p> 
  
 Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa de cadastro de endereço e escolha do mesmo para entregar de um produto.
@@ -62,7 +62,7 @@ Desenvolver uma aplicação utilizando javascript, css e html simulando a etapa 
 
 - etapa 3
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.jpg">
+  <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-4.1.jpg">
   <img alt="versão 1 do projeto" title="#CadastrarCEP" src="./.github/tela-3.jpg">
 </p> 
 
